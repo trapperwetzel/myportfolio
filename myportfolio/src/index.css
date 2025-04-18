@@ -1,17 +1,20 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 @import "animate.css";
 
 
 @keyframes customSlideInUp {
-    from {
-        transform: translateY(150px);
-        opacity: 0;
-    }
+    from
 
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
+{
+    transform: translateY(10px);
+    opacity: 0;
+}
+
+to {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 }
 
 .custom-slideInUp {
