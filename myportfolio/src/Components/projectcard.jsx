@@ -1,7 +1,7 @@
 ﻿
 export default function ProjectCard({ title, image, video, programs, description, github }) {
   return (
-    <div className="custom-slideInUp rounded-lg bg-gray-800 p-6 shadow-md">
+    <div className="custom-slideInUp border-1 rounded-lg border-solid border-white bg-black p-6 shadow-md">
       <h3 className="mb-4 text-xl font-semibold text-white">{title}</h3>
       {image && (
         <img

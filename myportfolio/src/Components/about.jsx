@@ -1,7 +1,7 @@
 ﻿
 export default function About() {
   return (
-      <section className="bg-gradient-to-br custom-slideInUp flex min-h-screen flex-col items-center justify-center from-green-900 to-gray-800 px-4 text-white">
+      <section className="bg-gradient-to-br custom-slideInUp border-1 flex min-h-screen flex-col items-center justify-center border-solid border-white bg-black px-4 text-white">
       <h2 className="custom-slideInUp mb-8 text-3xl font-bold md:text-4xl">About Me</h2>
       <div className="max-w-2xl text-center">
               <p className="custom-slideInUp mb-6 text-lg">

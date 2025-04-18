@@ -4,8 +4,8 @@ import lifthubMainPage from '../assets/lifthubmainpage.png';
 export default function Projects() { 
   const projects = [
     {
-      title: 'Portfolio Website',
-      image: 'lifthubmainpage.png',
+      title: 'Lifthub Website',
+      image: lifthubMainPage,
       programs: 'React, Tailwind CSS, Vite',
       description: 'My personal portfolio showcasing web development projects with smooth animations.',
       github: 'https://github.com/yourusername/portfolio'
@@ -20,7 +20,7 @@ export default function Projects() {
   ]
 
   return (
-    <section className="bg-gradient-to-br custom-slideInUp flex min-h-screen flex-col items-center justify-center from-green-900 to-gray-800 px-4 text-white">
+    <section className="bg-gradient-to-br custom-slideInUp flex min-h-screen flex-col items-center justify-center bg-black px-4 text-white">
       <div className="container mx-auto">
         <h2 className="custom-slideInUp mb-8 text-center text-3xl font-bold md:text-4xl">My Projects</h2>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
