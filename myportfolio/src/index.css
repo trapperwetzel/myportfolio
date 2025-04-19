@@ -1,6 +1,6 @@
 ﻿@import "tailwindcss";
 @import "animate.css";
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 
 
 @keyframes customSlideInUp {
@@ -21,38 +21,19 @@ to {
 .custom-slideInUp {
     animation: customSlideInUp 2s;
 }
-html, body {
-    @apply bg-black text-white;
-}
 
-h1.typewriter {
-    font-family: 'Fira Code', monospace;
-    font-size: 3rem;
-    color: white;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid white;
-    /* keyframe vars: */
-    --len: 17; /* number of chars */
-    animation: typing 3s steps(var(--len), end) 1 forwards, blink 0.75s step-end infinite;
-}
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: var(--len)ch;
-    }
-}
-
-@keyframes blink {
+/* Floating Animation */
+@keyframes float {
     0%, 100% {
-        border-color: transparent;
+        transform: translateY(0);
     }
 
     50% {
-        border-color: white;
+        transform: translateY(-15px);
     }
 }
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
