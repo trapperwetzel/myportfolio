@@ -9,9 +9,10 @@ const TypeWriterSecondHeader = () => {
 		<TypeAnimation
 		sequence = {[
 			"Aspiring Full Stack Web Developer",
-			5000,
-			"And yup... my birth name really is Trapper",
-			2000,
+					5000,
+					"",
+			100,
+			
 		]}
 		wrapper= "span"
 		speed= {60}

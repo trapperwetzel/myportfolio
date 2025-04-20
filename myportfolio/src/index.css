@@ -37,3 +37,34 @@ to {
     animation: float 3s ease-in-out infinite;
 }
 
+@keyframes fadeInFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-in-right {
+    animation: fadeInFromRight 2.5s ease-out forwards;
+}
+
+@keyframes fadeInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-in-left {
+    animation: fadeInFromLeft 0.8s ease-out forwards;
+}

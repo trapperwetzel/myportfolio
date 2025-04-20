@@ -1,7 +1,8 @@
 ﻿
 import ProjectCard from '../components/ProjectCard'
 import lifthubMainPage from '../assets/lifthubmainpage.png'
-
+import escapeToEarth from '../assets/escapetoearth.png'
+import TypeWriterProjectHeader from '../components/typewriterprojectsheader';
 export default function Projects() {
   const projects = [
     {
@@ -32,7 +33,7 @@ export default function Projects() {
     },
     {
       title: 'Escape to Earth Video Game',
-      video: '', // Add video URL if available
+      image: [escapeToEarth], 
       programs: 'C#, Unity',
       description: 'A collab project made in Data Structures class. The attached video is the funny "trailer" for the game.',
       github: 'https://github.com/trapperwetzel/EscapeToEarth',
@@ -60,7 +61,7 @@ export default function Projects() {
       title: 'My Productivity Website',
       images: [],
       programs: 'JavaScript, HTML/CSS',
-      description: 'A task management app that uses a local database to save to-do items.',
+      description: 'A personalized task management app that I created for my own use and to learn more javascript',
       github: 'https://github.com/trapperwetzel/myproductivity',
       role: 'Front-end',
       highlights: [
@@ -72,9 +73,11 @@ export default function Projects() {
   ]
 
   return (
-    <section className="bg-gradient-to-br custom-slideInUp flex min-h-screen flex-col items-center justify-center from-green-900 to-gray-800 px-4 text-white">
+    <section className="bg-gradient-to-br flex min-h-screen flex-col items-center justify-center from-green-900 to-gray-800 px-4 text-white">
       <div className="container mx-auto">
-        <h2 className="custom-slideInUp mb-8 text-center text-3xl font-bold md:text-4xl">My Projects</h2>
+        <div className="custom-slideInUp min-h-screen- flex items-center justify-center">
+            <TypeWriterProjectHeader />
+        </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {projects.map((project, index) => (
             <ProjectCard

@@ -9,9 +9,10 @@ export default function Home() {
     <div className="bg-gradient-to-br flex min-h-screen flex-col items-center justify-center from-green-900 to-gray-800 text-white">
       {/* Floating Note */}
       <FloatingNote 
-              message="Hey! I'm Trapper! Want to learn about me? Well... click the About me section!"
-              link="/about"
-              linkText="Learn more about what intrests me, and motivates me everyday!"
+              message="Hey! Thanks for stopping by my website. My name is Trapper Wetzel and as the title says, I am a aspiring Full Stack Developer. 
+              I love learning everyday and have been fascinated and involved with technology since I was a kid. There is plenty more to say but if you
+              want to learn about me; well... click the About me section!"
+              
           />
 
       {/* Hero + Card-Nav Section */}
