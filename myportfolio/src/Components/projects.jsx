@@ -33,14 +33,15 @@ export default function Projects() {
     },
     {
       title: 'Escape to Earth Video Game',
-      image: [escapeToEarth], 
+      images: [escapeToEarth], 
       programs: 'C#, Unity',
-      description: 'A collab project made in Data Structures class. The attached video is the funny "trailer" for the game.',
+      description: 'A collab project made in Data Structures class.',
       github: 'https://github.com/trapperwetzel/EscapeToEarth',
       role: 'Game Developer',
       highlights: [
         'Collaborated with a team to design game levels',
-        'Created a humorous trailer to showcase the game'
+        'Implemented player movement and enemy AI',
+        'Implemented the physics, gameplay, and animations'
       ],
       details: 'This was my first collaborative project, teaching me teamwork and version control with Git. I contributed to level design and scripting player movements, while also brainstorming the concept for the trailer to make it engaging and fun.'
     },

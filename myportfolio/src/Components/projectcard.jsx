@@ -1,7 +1,7 @@
 ﻿
 import { useState } from 'react'
 
-export default function ProjectCard({ title, images, video, programs, description, github, role, highlights, details }) {
+export default function ProjectCard({ title, images, programs, description, github, role, highlights, details }) {
   const [isExpanded, setIsExpanded] = useState(false)
 
   return (
@@ -14,18 +14,12 @@ export default function ProjectCard({ title, images, video, programs, descriptio
               key={index}
               src={image}
               alt={`${ title } screenshot ${ index + 1 } `}
-              className="mx-auto h-48 w-full rounded-md object-cover"
+              className="mx-auto max-h-64 w-full rounded-md object-contain"
             />
           ))}
         </div>
       )}
-      {video && (
-        <video
-          src={video}
-          controls
-          className="mx-auto mb-4 h-48 w-full rounded-md object-cover"
-        />
-      )}
+      
       <p className="mb-2 text-gray-300"><span className="font-semibold text-green-300">Programs:</span> {programs}</p>
       <p className="mb-2 text-gray-300"><span className="font-bold">Role:</span> {role}</p>
       <p className="mb-4 text-gray-300">{description}</p>

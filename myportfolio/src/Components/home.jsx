@@ -48,17 +48,15 @@ export default function Home() {
             </Link>
 
             {/* Resume Card */}
-            <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/resume"
               className="animate-float flex w-60 flex-col rounded-lg border border-green-500/30 bg-green-900 p-6 shadow-lg transition-shadow duration-300 hover:shadow-green-500/40"
             >
               <h3 className="mb-2 text-2xl font-semibold text-green-300">
                 Resume
               </h3>
-              <p className="text-gray-300">Download my CV.</p>
-            </a>
+              <p className="text-gray-300">View/Download</p>
+            </Link>
           </div>
         </div>
       </section>
