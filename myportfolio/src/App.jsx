@@ -12,7 +12,7 @@ import './index.css'
 
 function App() {
     return (
-        <Router>
+        <Router basename = "/myportfolio">
             <div className="flex flex-col">
                 
                 <main className="flex-grow">
@@ -20,7 +20,7 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/projects" element={<Projects />} />
-                        <Route path="/resume" element={<Resume />} /> }
+                        <Route path="/resume" element={<Resume />} /> 
                     </Routes>
                 </main>
                 
