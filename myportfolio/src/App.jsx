@@ -12,7 +12,7 @@ import './index.css'
 
 function App() {
     return (
-        <Router basename = "/myportfolio">
+        <BrowserRouter basename = "/myportfolio">
             <div className="flex flex-col">
                 
                 <main className="flex-grow">
@@ -25,7 +25,7 @@ function App() {
                 </main>
                 
             </div>
-        </Router>
+        </BrowserRouter>
     )
 }
 
