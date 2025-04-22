@@ -14,7 +14,7 @@ const TypeWriterHeader = () => {
 			350,
 		]}
 		wrapper= "span"
-		speed= {70}
+		speed= {75}
 		repeat = {Infinity}
 		/>
 	</h1>

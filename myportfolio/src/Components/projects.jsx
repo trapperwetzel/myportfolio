@@ -2,8 +2,12 @@
 import ProjectCard from '../components/ProjectCard'
 import lifthubMainPage from '../assets/lifthubmainpage.png'
 import escapeToEarth from '../assets/escapetoearth.png'
-import TypeWriterProjectHeader from '../components/typewriterprojectsheader';
+import TypeWriterProjectHeader from '../components/typewriterprojectsheader'
+import tCoding from '../assets/tcoding.png'
+import FloatingNote from '../components/FloatingNote'
 export default function Projects() {
+
+    
   const projects = [
     {
       title: 'Powerlifting Video Game',
@@ -78,7 +82,16 @@ export default function Projects() {
       <div className="container mx-auto">
         <div className="custom-slideInUp min-h-screen- flex items-center justify-center">
             <TypeWriterProjectHeader />
-        </div>
+              </div>
+              <FloatingNote
+                  imageSrc={tCoding}
+                  imageAlt="Picture of my tCoding logo"
+                  message=""
+                  link="/"
+                  linkText="Click here to return to the Home Page"
+
+              />
+        
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {projects.map((project, index) => (
             <ProjectCard

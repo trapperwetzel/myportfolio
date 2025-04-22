@@ -3,17 +3,29 @@ import { Link } from 'react-router-dom'
 import FloatingNote from '../components/FloatingNote'
 import TypeWriterHeader from '../components/typewriterheader';
 import TypeWriterSecondHeader from '../components/typewritersecondheader';
+import myPhoto from '../assets/IMG_7701.jpg'
 
 export default function Home() {
   return (
     <div className="bg-gradient-to-br flex min-h-screen flex-col items-center justify-center from-green-900 to-gray-800 text-white">
       {/* Floating Note */}
-      <FloatingNote 
-              message="Hey! Thanks for stopping by my website. My name is Trapper Wetzel and as the title says, I am a aspiring Full Stack Developer. 
-              I love learning everyday and have been fascinated and involved with technology since I was a kid. There is plenty more to say but if you
-              want to learn about me; well... click the About me section!"
-              
-          />
+          <FloatingNote
+              imageSrc={myPhoto}
+              imageAlt="Me"
+              message=
+"Hello! My name is Trapper Wetzel.
+
+I love learning and have been fascinated and involved with technology since I was a kid.
+
+So you could imagine my journey into software development has been an extremely captivating and rewarding experience.
+
+Thank you for visiting.
+
+-Trapper
+"
+
+          
+          />          
 
       {/* Hero + Card-Nav Section */}
       <section className="relative w-full overflow-hidden py-32 text-center">
@@ -33,7 +45,7 @@ export default function Home() {
               <h3 className="mb-2 text-2xl font-semibold text-green-300">
                 About Me
               </h3>
-              <p className="text-gray-300">Learn more about me.</p>
+              
             </Link>
 
             {/* Projects Card */}
@@ -44,7 +56,7 @@ export default function Home() {
               <h3 className="mb-2 text-2xl font-semibold text-green-300">
                 Projects
               </h3>
-              <p className="text-gray-300">Check out my work.</p>
+              
             </Link>
 
             {/* Resume Card */}
@@ -55,7 +67,7 @@ export default function Home() {
               <h3 className="mb-2 text-2xl font-semibold text-green-300">
                 Resume
               </h3>
-              <p className="text-gray-300">View/Download</p>
+              
             </Link>
           </div>
         </div>
