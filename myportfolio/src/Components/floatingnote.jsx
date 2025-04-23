@@ -19,7 +19,7 @@ export default function FloatingNote({
         imageSizeClass = 'h-50 w-70';
         // About page = bigger image
     } else if (location.pathname === '/projects') {
-        imageSizeClass = 'h-50 w-70';
+        imageSizeClass = 'h-50 w-50';
     }
 
     return (

@@ -20,7 +20,7 @@ export default function Projects() {
         'Designed interactive gameplay mechanics',
         'Implemented physics-based lifting simulations'
       ],
-      details: 'This project challenged me to combine my passion for powerlifting with game development. I focused on creating realistic lifting mechanics using Unity’s physics engine, which required learning about rigidbody dynamics and animation states.'
+      details: 'This project is one of a couple projects for my Advanced OOP Programming class. It uses many notable design patterns, such as the factory, state, strategy patterns and many more.'
     },
     {
       title: 'LiftHub Website',
@@ -31,7 +31,7 @@ export default function Projects() {
       role: 'Full Stack',
       highlights: [
         'Built nutrition and one rep max calculators',
-        'Configured Azure Cloud database integration'
+        'Configured Azure Cloud database'
       ],
       details: 'LiftHub was a major learning experience in full-stack development. I handled both front-end (UI with HTML/CSS and JavaScript) and back-end (C# for logic, SQL for database queries). The biggest challenge was setting up the Azure database connection securely and optimizing query performance.'
     },
@@ -59,8 +59,9 @@ export default function Projects() {
       highlights: [
         'Developed mood-based search functionality',
         'Integrated Azure Cloud database for song data'
+
       ],
-      details: 'The Mood Playlist Website required creative problem-solving to map user moods to song recommendations. I used JavaScript for the front-end logic and C# for back-end processing, with Azure SQL for storing song data. A key challenge was designing an efficient search algorithm.'
+      details: 'The Mood Playlist Website required creative problem-solving to map user moods to song recommendations. I used JavaScript for the front-end logic and C# for back-end processing, with Azure SQL for storing song data.'
     },
     {
       title: 'My Productivity Website',
@@ -73,7 +74,7 @@ export default function Projects() {
         'Built a clean and intuitive UI',
         'Implemented local storage for task persistence'
       ],
-      details: 'This project was my first dive into JavaScript for dynamic web apps. I focused on creating a user-friendly interface for task management, using local storage to persist data. It taught me the basics of DOM manipulation and event handling.'
+      details: 'This project was my first dive into JavaScript for dynamic web apps. I focused on the style of website I liked, and task management helpers that I wanted to use. To-Do-Lists, Pomodoro timers and Note taking capabilties make this something I use for myself daily!'
     }
   ]
 
@@ -84,7 +85,7 @@ export default function Projects() {
             <TypeWriterProjectHeader />
               </div>
               <FloatingNote
-                  imageSrc={tCoding}
+                  imageSrc=''
                   imageAlt="Picture of my tCoding logo"
                   message=""
                   link="/"
