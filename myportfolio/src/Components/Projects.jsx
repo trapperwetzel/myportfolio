@@ -1,10 +1,10 @@
 ﻿
-import ProjectCard from '../components/ProjectCard'
+import ProjectCard from './ProjectCard'
 import lifthubMainPage from '../assets/lifthubmainpage.png'
 import escapeToEarth from '../assets/escapetoearth.png'
-import TypeWriterProjectHeader from '../components/typewriterprojectsheader'
-import tCoding from '../assets/tcoding.png'
-import FloatingNote from '../components/FloatingNote'
+import TypeWriterProjectHeader from './TypeWriterProjectsHeader'
+// import tCoding from '../assets/tcoding.png'
+import FloatingNote from './FloatingNote'
 export default function Projects() {
 
     

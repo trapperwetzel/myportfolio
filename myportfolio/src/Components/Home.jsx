@@ -1,8 +1,8 @@
 ﻿
 import { Link } from 'react-router-dom'
-import FloatingNote from '../components/FloatingNote'
-import TypeWriterHeader from '../components/typewriterheader';
-import TypeWriterSecondHeader from '../components/typewritersecondheader';
+import FloatingNote from './FloatingNote'
+import TypeWriterHeader from './TypeWriterHeader'
+import TypeWriterSecondHeader from './TypeWriterSecondHeader'
 import myPhoto from '../assets/IMG_7701.jpg'
 
 export default function Home() {

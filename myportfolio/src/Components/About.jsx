@@ -1,13 +1,13 @@
 ﻿import React from 'react';
 import { TypeAnimation } from 'react-type-animation'; 
-import FloatingNote from '../components/FloatingNote'
+import FloatingNote from './FloatingNote'
 import liftingPhoto from '../assets/IMG_7711.png'
-import mountainPhoto from '../assets/IMG_7713.png'
+//import mountainPhoto from '../assets/IMG_7713.png'
 import tCoding from '../assets/tcoding.png'
 import montanaPhoto from '../assets/montanapic.png'
 import keyboardpic from '../assets/keyboardpic.jpg'
 import bookpic1 from '../assets/bookpic1.jpg'
-import bookpic2 from '../assets/bookpic2.jpg'
+//import bookpic2 from '../assets/bookpic2.jpg'
 
 
 export default function About() {

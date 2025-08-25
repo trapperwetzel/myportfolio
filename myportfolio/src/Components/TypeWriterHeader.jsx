@@ -1,8 +1,5 @@
 ﻿import {TypeAnimation} from 'react-type-animation';
 
-
-
-
 const TypeWriterHeader = () => {
 	return (
 		<h1 className= "font-mono text-5xl font-bold text-green-400 drop-shadow-lg md:text-6xl">

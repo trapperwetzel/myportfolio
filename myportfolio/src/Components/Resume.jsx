@@ -1,8 +1,8 @@
 ﻿import React from 'react'
 import { Link } from 'react-router-dom'
 import resume from '../assets/resume.pdf'  
-import TypeWriterResume from '../components/resumetypewriter'
-import tCoding from '../assets/tcoding.png'
+import TypeWriterResume from './TypeWriterResume'
+//import tCoding from '../assets/tcoding.png'
 
 export default function Resume() {
     return (
