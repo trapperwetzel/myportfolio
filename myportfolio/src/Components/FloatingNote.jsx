@@ -23,7 +23,7 @@ export default function FloatingNote({
     }
 
     return (
-        <div className="animate-float absolute top-4 left-4 w-60 rounded-lg border border-green-500/30 bg-green-900 p-4 shadow-lg">
+        <div className="animate-float w-60 rounded-lg border border-green-500/30 bg-green-900 p-4 shadow-lg">
             {imageSrc && (
                 <img
                     src={imageSrc}

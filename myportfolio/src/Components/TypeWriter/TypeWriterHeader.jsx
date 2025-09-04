@@ -5,10 +5,10 @@ const TypeWriterHeader = () => {
 		<h1 className= "font-mono text-5xl font-bold text-green-400 drop-shadow-lg md:text-6xl">
 		<TypeAnimation
 		sequence = {[
-			"Trapper's Website!",
-			5000,
 			"Welcome to", 
-			350,
+			1000,
+			"Trapper's Website!",
+			100000,
 		]}
 		wrapper= "span"
 		speed= {75}
