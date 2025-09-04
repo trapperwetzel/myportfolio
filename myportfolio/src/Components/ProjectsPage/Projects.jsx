@@ -1,30 +1,26 @@
 ﻿
 import ProjectCard from './ProjectCard'
-import lifthubMainPage from '../assets/lifthubmainpage.png'
-import escapeToEarth from '../assets/escapetoearth.png'
-import TypeWriterProjectHeader from './TypeWriterProjectsHeader'
-// import tCoding from '../assets/tcoding.png'
-import FloatingNote from './FloatingNote'
+import TypeWriterProjectHeader from '../TypeWriter/TypeWriterProjectsHeader'
+import FloatingNote from '../FloatingNote'
 export default function Projects() {
 
     
-  const projects = [
-    {
-      title: 'Powerlifting Video Game',
-      images: [], // No images for now
-      programs: 'C#, Unity',
-      description: 'Powerlifting video game I am currently working on for my advanced object-oriented programming class.',
-      github: 'https://github.com/trapperwetzel/Lift',
-      role: 'Game Developer',
+  const projects = [  
+      {
+      title: 'WrestlerAPI',
+      programs: 'Node.JS, React.JS, HTML/CSS',
+      description: 'WrestlerAPI is a web application that fetches wrestling data from the Wiki API, parses it into JSON, and displays it using a dynamic React interface.',
+      github: 'https://github.com/trapperwetzel/WrestlerAPI',
+      role: 'Front-end Developer',
       highlights: [
-        'Designed interactive gameplay mechanics',
-        'Implemented physics-based lifting simulations'
+        'Integrated Wiki API for real-time wrestling data',
+        'Parsed and transformed API responses into structured JSON',
+        'Rendered data in an interactive, user-friendly React UI'
       ],
-      details: 'This project is one of a couple projects for my Advanced OOP Programming class. It uses many notable design patterns, such as the factory, state, strategy patterns and many more.'
-    },
+      details: 'This project demonstrates my ability to work with external APIs, handle asynchronous data flows, and build modern front-end experiences.'
+    },  
     {
       title: 'LiftHub Website',
-      images: [lifthubMainPage], // Add more PNGs if available
       programs: 'JavaScript, HTML/CSS, SQL, C#, Azure',
       description: 'LiftHub is a website with features such as a nutrition calculator and one rep max calculator. A highlight of the project is configuring and managing the connection to an Azure Cloud database.',
       github: 'https://github.com/trapperwetzel/Lifthub',
@@ -37,7 +33,6 @@ export default function Projects() {
     },
     {
       title: 'Escape to Earth Video Game',
-      images: [escapeToEarth], 
       programs: 'C#, Unity',
       description: 'A collab project made in Data Structures class.',
       github: 'https://github.com/trapperwetzel/EscapeToEarth',
@@ -65,7 +60,6 @@ export default function Projects() {
     },
     {
       title: 'My Productivity Website',
-      images: [],
       programs: 'JavaScript, HTML/CSS',
       description: 'A personalized task management app that I created for my own use and to learn more javascript',
       github: 'https://github.com/trapperwetzel/myproductivity',
@@ -98,8 +92,6 @@ export default function Projects() {
             <ProjectCard
               key={index}
               title={project.title}
-              images={project.images}
-              video={project.video}
               programs={project.programs}
               description={project.description}
               github={project.github}

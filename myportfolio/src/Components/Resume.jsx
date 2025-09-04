@@ -1,8 +1,7 @@
 ﻿import React from 'react'
 import { Link } from 'react-router-dom'
 import resume from '../assets/resume.pdf'  
-import TypeWriterResume from './TypeWriterResume'
-//import tCoding from '../assets/tcoding.png'
+import TypeWriterResume from './TypeWriter/TypeWriterResume'
 
 export default function Resume() {
     return (
@@ -10,10 +9,6 @@ export default function Resume() {
             <div className= "custom-slideInUp">
                <TypeWriterResume/>
             </div>
-            
-
-           
-
             <iframe
                 src={resume}
                 className="mt-8 h-[1000px] w-full rounded-xl shadow-lg"

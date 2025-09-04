@@ -1,31 +1,15 @@
 ﻿
 import { Link } from 'react-router-dom'
-import FloatingNote from './FloatingNote'
-import TypeWriterHeader from './TypeWriterHeader'
-import TypeWriterSecondHeader from './TypeWriterSecondHeader'
-import myPhoto from '../assets/IMG_7701.jpg'
+import TypeWriterHeader from './TypeWriter/TypeWriterHeader'
+import TypeWriterSecondHeader from './TypeWriter/TypeWriterSecondHeader'
 
 export default function Home() {
   return (
     <div className="bg-gradient-to-br flex min-h-screen flex-col items-center justify-center from-green-900 to-gray-800 text-white">
-      {/* Floating Note */}
-          <FloatingNote
-              imageSrc={myPhoto}
-              imageAlt="Me"
-              message=
-"Hello! My name is Trapper Wetzel.
 
-I love learning and have been fascinated and involved with technology since I was a kid.
-
-So you could imagine my journey into software development has been an extremely captivating and rewarding experience.
-
-Thank you for visiting.
-
--Trapper
-"
 
           
-          />          
+  
 
       {/* Hero + Card-Nav Section */}
       <section className="relative w-full overflow-hidden py-32 text-center">

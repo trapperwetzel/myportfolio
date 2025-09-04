@@ -1,8 +1,6 @@
 ﻿import { TypeAnimation } from 'react-type-animation';
 
 
-
-
 const TypeWriterProjectsHeader = () => {
 	return (
 		<h1 className="rop-shadow-lg flex items-center text-center font-mono font-bold text-green-500 italic md:text-4xl">

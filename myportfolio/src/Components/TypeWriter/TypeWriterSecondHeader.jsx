@@ -5,10 +5,18 @@ const TypeWriterSecondHeader = () => {
 		<h2 className= "font-mono text-5xl font-bold text-green-200 drop-shadow-lg md:text-2xl">
 		<TypeAnimation
 		sequence = {[
-			"Aspiring Full Stack Web Developer",
-					5000,
-					"",
-			100,
+			
+			"A Front End Developer Intern",
+			3000,
+			"Currently loving these technologies",
+			500,
+			"React",
+			500,
+			"Node.JS",
+			500,
+			"Linux (arch btw)",
+			500,
+			""
 			
 		]}
 		wrapper= "span"
@@ -16,7 +24,7 @@ const TypeWriterSecondHeader = () => {
 		repeat = {Infinity}
 		/>
 	</h2>
-
+	
 	);
 };
 
