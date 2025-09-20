@@ -7,9 +7,7 @@ const TypeWriterProjectsHeader = () => {
 			<TypeAnimation
 				sequence={[
 					"Projects",
-					4000,
-					"",
-					100,
+					10000,
 					
 
 				]}

@@ -8,10 +8,8 @@ const TypeWriterResume= () => {
             <TypeAnimation
                 sequence={[
                     "My Resume!",
-                    5000,
-                    "Download Button Below",
-                    1500
-
+                    10000,
+                
                 ]}
                 wrapper="span"
                 speed={75}

@@ -18,23 +18,7 @@ export default function Resume() {
         className="w-full h-[80vh] rounded-xl shadow-lg"
         title="Resume PDF"
       />
-
-      {/* Download Button */}
-      <a
-        href={resume}
-        download="Trappers_Resume.pdf"
-        className="custom-slideInUp mt-6 inline-block rounded-lg bg-green-600 px-6 py-3 font-mono font-bold text-green-200 shadow-lg transition hover:bg-green-700"
-      >
-        Download Resume
-      </a>
-
-      {/* Back to Top */}
-      <a
-        href="#hero"
-        className="mt-4 inline-block font-mono text-sm text-green-400 hover:underline"
-      >
-        ↑ Back to Top 
-      </a>
+  
     </section>
   );
 }
