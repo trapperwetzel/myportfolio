@@ -57,7 +57,8 @@ export default function About() {
           >
             <h2 className="text-green-400 text-xl">❯ whoami</h2>
             <p>
-              I am a Front-End Developer Intern with valuable experience in React.js, Git, and Azure DevOps. I know I have only scratched the surface of what I want to learn, but I am eager to grow, contribute, and be beneficial to any project I take on.
+             I’m a Front-End Developer Intern with experience in React.js, Git, and Azure DevOps. At work, I’ve been working mainly with React Query which has given me strong hands-on experience with managing server state and API data.
+I’m currently diving deeper into JavaScript and Linux, and I love the process of learning new things just as much as I enjoy building projects that challenge me to grow.
             </p>
           </motion.div>
 
