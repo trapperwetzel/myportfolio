@@ -14,19 +14,29 @@ export default function Projects() {
         'Parsed and transformed API responses into structured JSON',
         'Rendered data in an interactive, user-friendly React UI'
       ],
-      details: 'This project demonstrates my ability to work with external APIs, handle asynchronous data flows, and build modern front-end experiences.'
     },
     {
       title: 'LiftHub Website',
       programs: 'JavaScript, HTML/CSS, SQL, C#, Azure',
-      description: 'LiftHub is a website with features such as a nutrition calculator and one rep max calculator, with an Azure Cloud database backend.',
+      description: 'LiftHub is a collab website project with features such as a nutrition calculator and one rep max calculator, with an Azure Cloud database backend.',
       github: 'https://github.com/trapperwetzel/Lifthub',
       role: 'Full Stack',
       highlights: [
         'Built nutrition and one rep max calculators',
         'Configured Azure Cloud database'
       ],
-      details: 'I handled both front-end (HTML/CSS/JS) and back-end (C#, SQL). The biggest challenge was setting up the Azure database securely and optimizing queries.'
+    },
+    {
+      title: 'Mood Playlist Website',
+      programs: 'JavaScript, HTML/CSS, C#, SQL, Azure',
+      description: 'A project that was created for my Advanced Object Oriented Programming class. This is a website that lets users search for songs/artists based on mood, powered by an Azure Cloud database.',
+      github: 'https://github.com/trapperwetzel/CIS_414_Playlist_Project',
+      role: 'Full Stack',
+      highlights: [
+        'Developed mood-based search functionality',
+        'Integrated Azure Cloud database for song data'
+      ],
+      
     },
     {
       title: 'Escape to Earth Video Game',
@@ -39,32 +49,8 @@ export default function Projects() {
         'Implemented player movement and enemy AI',
         'Implemented physics, gameplay, and animations'
       ],
-      details: 'This project taught me teamwork and Git version control. I contributed to level design and scripting player movements.'
     },
-    {
-      title: 'Mood Playlist Website',
-      programs: 'JavaScript, HTML/CSS, C#, SQL, Azure',
-      description: 'Website that lets users search for songs/artists based on mood, powered by an Azure Cloud database.',
-      github: 'https://github.com/trapperwetzel/CIS_414_Playlist_Project',
-      role: 'Full Stack',
-      highlights: [
-        'Developed mood-based search functionality',
-        'Integrated Azure Cloud database for song data'
-      ],
-      details: 'I mapped moods to songs using JavaScript (front-end) and C# (back-end), with Azure SQL storing the data.'
-    },
-    {
-      title: 'My Productivity Website',
-      programs: 'JavaScript, HTML/CSS',
-      description: 'A personalized task management app with To-Do Lists, Pomodoro timers, and note-taking features.',
-      github: 'https://github.com/trapperwetzel/myproductivity',
-      role: 'Front-end Developer',
-      highlights: [
-        'Built a clean, intuitive UI',
-        'Implemented local storage for task persistence'
-      ],
-      details: 'My first dynamic JS project! Built for myself, it’s something I use daily to stay organized.'
-    }
+    
   ];
 
   return (
