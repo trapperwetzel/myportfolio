@@ -1,55 +1,46 @@
-﻿import { Link } from "react-router-dom";
-import TypeWriterHeader from "./TypeWriter/TypeWriterHeader";
-import Silk from "./Silk";
+﻿import Silk from "./Silk";
+import About from "./About";
+import Projects from "./Projects";
+import Resume from "./Resume";
+import PillNav from "./PillNav"; 
+import tcoding from "../assets/tcoding.png";
 
 export default function Home() {
   return (
-    <div className="relative flex min-h-screen flex-col items-center justify-center text-white">
-      {/* Silk Background */}
+    <div className="relative text-white">
+      {/* Global Silk Background */}
       <div className="absolute inset-0 -z-10">
         <Silk speed={5} scale={1} color="#065f46" noiseIntensity={1} />
       </div>
 
-      {/* Hero + Card-Nav Section */}
-      <section className="relative w-full overflow-hidden py-32 text-center">
-        <div className="relative z-10 mx-auto max-w-3xl px-4">
-          <div className="custom-slideInUp">
-            <TypeWriterHeader /> 
-          </div>
+      {/* Pill Navbar */}
+      <PillNav
+        logo= {tcoding}
+        items={[
+          { label: "About", href: "#about" },
+          { label: "Projects", href: "#projects" },
+          { label: "Resume", href: "#resume" },
+        ]}
+        activeHref="#about"
+        className="px-6"
+        ease="power2.easeOut"
+        baseColor="#065f46"
+        pillColor="#ffffff"
+        hoveredPillTextColor="#ffffff"
+        pillTextColor="#065f46"
+      />
 
-          {/* NAV-CARDS GRID */}
-          <div className="custom-slideInUp mx-auto mt-12 grid max-w-3xl grid-cols-1 justify-items-center gap-8 px-4 sm:grid-cols-3">
-            {/* About Me Card */}
-            <Link
-              to="/about"
-              className="animate-float flex w-60 flex-col rounded-lg border border-green-500/30 bg-green-900 p-6 shadow-lg transition-shadow duration-300 hover:shadow-green-500/40"
-            >
-              <h3 className="mb-2 text-2xl font-semibold font-mono text-green-300">
-                About Me
-              </h3>
-            </Link>
+      {/* Sections */}
+      <section id="about">
+        <About />
+      </section>
 
-            {/* Projects Card */}
-            <Link
-              to="/projects"
-              className="animate-float flex w-60 flex-col rounded-lg border border-green-500/30 bg-green-900 p-6 shadow-lg transition-shadow duration-300 hover:shadow-green-500/40"
-            >
-              <h3 className="mb-2 text-2xl font-semibold text-green-300">
-                Projects
-              </h3>
-            </Link>
+      <section id="projects">
+        <Projects />
+      </section>
 
-            {/* Resume Card */}
-            <Link
-              to="/resume"
-              className="animate-float flex w-60 flex-col rounded-lg border border-green-500/30 bg-green-900 p-6 shadow-lg transition-shadow duration-300 hover:shadow-green-500/40"
-            >
-              <h3 className="mb-2 text-2xl font-semibold text-green-300">
-                Resume
-              </h3>
-            </Link>
-          </div>
-        </div>
+      <section id="resume">
+        <Resume />
       </section>
     </div>
   );

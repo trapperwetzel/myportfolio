@@ -1,7 +1,9 @@
 ﻿@import "tailwindcss";
 @import "animate.css";
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 @keyframes customSlideInUp {
     from

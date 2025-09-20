@@ -16,6 +16,7 @@
     "@react-three/fiber": "^9.3.0",
     "animate.css": "^4.1.1",
     "framer-motion": "^12.23.16",
+    "gsap": "^3.13.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scroll": "^1.9.3",
