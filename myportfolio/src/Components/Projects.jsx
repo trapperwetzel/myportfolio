@@ -6,22 +6,21 @@ import { FaGithub } from "react-icons/fa";
 export default function Projects() {
   const projects = [
     {
-      title: "ProWrestling API Website",
-      programs: "Node.js, React.js + TanStack Query, JavaScript/HTML/CSS",
+      title: "Pro-Wrestling API Website",
+      tech: "Node.js, React.js + TanStack Query, JavaScript/HTML/CSS",
       description:
         "A React-based web app that fetches professional wrestling data from the Wiki API, parses it into JSON, and displays it with interactive tables, filtering, and search.",
       github: "https://github.com/trapperwetzel/WrestlerAPI",
       role: "Full-Stack Developer",
       highlights: [
-        "Fetched and merged wrestling data from multiple Wiki APIs",
-        "Interactive table with filtering by title reigns, days held, alphabetical order, and wrestler search",
-        "Used TanStack Query for efficient data fetching and caching",
+        "Fetched and merged wrestling data from Wiki API",
+        "Interactive table with filtering by title reigns, days held, alphabetical order, and wrestler search by name or championship",
         "Planned PostgreSQL integration and daily automated updates",
-    ],
+      ],
     },
     {
       title: "LiftHub Website",
-      programs: "JavaScript/HTML/CSS, MSSQL, C#, Azure",
+      tech: "C#, ASP.NET MVC, JavaScript/HTML/CSS, MSSQL, Azure",
       description:
         "LiftHub is a collaborative website project with features such as a nutrition calculator and one rep max calculator, supported by an Azure Cloud database backend.",
       github: "https://github.com/trapperwetzel/Lifthub",
@@ -34,7 +33,7 @@ export default function Projects() {
     },
     {
       title: "Mood Playlist Website",
-      programs: "JavaScript/HTML/CSS, C#, MSSQL, Azure",
+      tech: "C#, ASP.NET MVC, JavaScript/HTML/CSS, MSSQL, Azure",
       description:
         "Developed for an Advanced OOP class, this website lets users search for songs/artists by mood, powered by an Azure Cloud database backend.",
       github: "https://github.com/trapperwetzel/CIS_414_Playlist_Project",
@@ -72,7 +71,7 @@ export default function Projects() {
         className="mt-10 text-green-300 font-mono text-sm text-center flex flex-col items-center space-y-3"
       >
         <p>
-          See more projects — including the code for this portfolio — on my{" "}
+          See more projects — including the code for this portfolio on my{" "}
           <a
             href="https://github.com/trapperwetzel"
             target="_blank"
