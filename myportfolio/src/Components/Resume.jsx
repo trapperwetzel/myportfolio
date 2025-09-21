@@ -5,7 +5,7 @@ export default function Resume() {
   return (
     <section
       id="resume"
-      className="min-h-screen flex flex-col items-center justify-center px-4 text-white"
+      className="min-h-screen font italic flex flex-col items-center justify-center px-4 text-white"
     >
       {/* Header */}
       <div className="custom-slideInUp mb-8">
