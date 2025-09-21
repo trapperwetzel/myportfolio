@@ -7,7 +7,7 @@ import tcoding from "../assets/tcoding.png";
 
 export default function Home() {
   return (
-    <div className="relative text-white">
+    <div className="relative">
       {/* Global Silk Background */}
       <div className="absolute inset-0 -z-10">
         <Silk speed={5} scale={1} color="#065f46" noiseIntensity={1} />

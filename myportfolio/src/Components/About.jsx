@@ -19,11 +19,11 @@ export default function About() {
           <img
             src={portrait}
             alt="Your portrait"
-            className="h-48 w-48 rounded-full border-4 border-green-500 object-cover shadow-lg shadow-green-800"
+            className="h-52 w-52 rounded-full border-4 border-green-500 object-cover shadow-lg shadow-green-800"
           />
 
           {/* Name */}
-          <h1 className="font-mono text-2xl font-bold text-green-300">
+          <h1 className="font-mono text-4xl font-bold text-green-300">
             Trapper Wetzel
           </h1>
 
@@ -35,7 +35,7 @@ export default function About() {
               rel="noopener noreferrer"
               className="text-green-300 hover:text-green-400 transition-colors"
             >
-              <FaGithub size={28} />
+              <FaGithub size={45} />
             </a>
             <a
               href="https://www.linkedin.com/in/trapper-wetzel-15ab18269/"
@@ -43,13 +43,14 @@ export default function About() {
               rel="noopener noreferrer"
               className="text-green-300 hover:text-green-400 transition-colors"
             >
-              <FaLinkedin size={28} />
+              <FaLinkedin size={45} />
             </a>
           </div>
         </motion.div>
 
         {/* About Text */}
         <div className="font-mono space-y-6 text-green-300">
+          {/* whoami */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -57,43 +58,30 @@ export default function About() {
           >
             <h2 className="text-green-400 text-xl">❯ whoami</h2>
             <p>
-             I’m a Front-End Developer Intern with experience in React.js, Git, and Azure DevOps. At work, I’ve been working mainly with React Query which has given me strong hands-on experience with managing server state and API data.
-I’m currently diving deeper into JavaScript and Linux, and I love the process of learning new things just as much as I enjoy building projects that challenge me to grow.
+              Hi, I’m Trapper — a Front-End Developer Intern (previously QA) with hands-on industry experience working with React.js, Git, and Azure DevOps.
+              <br /><br />
+              A big part of my current role involves using React Query to restructure our service calls, which has taught me a lot about how data flows through an application. It’s helped me connect the dots between APIs, caching, and performance — and made me realize how much I enjoy working with APIs and turning data into something usable.
+              <br /><br />
+              On the side, I’ve been having fun diving deeper into JavaScript on the backend with Node.js, as well as exploring the Linux ecosystem for personal and educational use.
+              I love not just learning, but striving to be great in something. I really enjoy building projects that allow me to grow as a programmer while also solving issues for others and myself — the perfect combo!
             </p>
           </motion.div>
+      
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.6, duration: 0.8 }}
+        >
+          <h2 className="text-green-400 text-xl">❯ skills</h2>
+          <ul className="list-disc ml-6 mt-2 space-y-1 text-sm text-green-300">
+            <li><strong>Languages:</strong> JavaScript, C#, Python, SQL</li>
+            <li><strong>Technologies:</strong> React.js, React Query</li>
+            <li><strong>Tools:</strong> Git, Azure DevOps, Linux</li>
+            <li><strong>Currently Learning:</strong> Node.JS, TypeScript, PostgreSQL</li>
+          </ul>
+      </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6, duration: 0.8 }}
-          >
-            <h2 className="text-green-400 text-xl">❯ experience</h2>
-            <p>
-              Transitioning from a QA Intern to a Developer has only motivated me further to keep improving my skills. The opportunity to work with modern technologies such as React.js early in my career has been incredibly rewarding. I’ve also enjoyed diving into Node.js and exploring JavaScript more deeply as a whole. Right now, I’m focusing on building stronger fundamentals in networking and algorithms, while also nurturing my passion for Linux and the open-source ecosystem.
-            </p>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.9, duration: 0.8 }}
-          >
-            <h2 className="text-green-400 text-xl">❯ motivation</h2>
-            <p>
-              Software development is the most fulfilling thing I have done in my life. I love learning and programming scratches that itch for me. I’m grateful for the chance to be in this field and to do what I love every day.
-            </p>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.2, duration: 0.8 }}
-          >
-            <h2 className="text-green-400 text-xl">❯ to the senior devs:</h2>
-            <p>
-              When you boil it down, the fact that we are able to define instructions and craft them in such a manner that allows us to make websites that are accessible across the world, automate tasks, do advanced calculations, etc etc…. is truly amazing and I am just fascinated by it all. Being a software developer/engineer is something I will hold with pride forever. The respect and passion I have for this craft will never leave me.
-            </p>
-          </motion.div>
+          
         </div>
       </div>
     </section>
