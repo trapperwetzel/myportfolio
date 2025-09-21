@@ -3,38 +3,41 @@ import TypeWriterProjectHeader from './TypeWriter/TypeWriterProjectsHeader';
 
 export default function Projects() {
   const projects = [
+    
     {
-      title: 'WrestlerAPI',
-      programs: 'Node.JS, React.JS, HTML/CSS',
-      description: 'WrestlerAPI is a web application that fetches wrestling data from the Wiki API, parses it into JSON, and displays it using a dynamic React interface.',
-      github: 'https://github.com/trapperwetzel/WrestlerAPI',
-      role: 'Front-end Developer',
+      title: 'LiftHub Website',
+      programs: 'JavaScript/HTML/CSS, MSSQL, C#, Azure',
+      description: 'LiftHub is a collab website project with features such as a nutrition calculator and one rep max calculator, with an Azure Cloud database backend.',
+      github: 'https://github.com/trapperwetzel/Lifthub',
+      role: 'Full-Stack Developer',
       highlights: [
-        'Integrated Wiki API for real-time wrestling data',
-        'Parsed and transformed API responses into structured JSON',
-        'Rendered data in an interactive, user-friendly React UI'
+        'Built nutrition and one rep max calculators',
+        'Azure Cloud database',
+        'M-V-C Design Pattern'
       ],
     },
     {
-      title: 'LiftHub Website',
-      programs: 'JavaScript, HTML/CSS, SQL, C#, Azure',
-      description: 'LiftHub is a collab website project with features such as a nutrition calculator and one rep max calculator, with an Azure Cloud database backend.',
-      github: 'https://github.com/trapperwetzel/Lifthub',
-      role: 'Full Stack',
-      highlights: [
-        'Built nutrition and one rep max calculators',
-        'Configured Azure Cloud database'
+      title: 'WrestlerAPI',
+      programs: 'Node.JS, React.JS + Tanstack Query, Javascript/HTML/CSS',
+      description: 'WrestlerAPI is a web application that fetches wrestling data from the Wiki API, parses it into JSON, and displays it using a dynamic React interface.',
+      github: 'https://github.com/trapperwetzel/WrestlerAPI',
+      role: 'Full Stack Developer', 
+     highlights: [
+      'Fetched and merged wrestling data from multiple Wiki APIs',
+      'Interactive React interface for filtering, sorting, and exploring championship stats',
+      'Planned PostgreSQL integration and daily automated updates'
       ],
     },
     {
       title: 'Mood Playlist Website',
-      programs: 'JavaScript, HTML/CSS, C#, SQL, Azure',
+      programs: 'JavaScript/HTML/CSS, C#, MSSQL, Azure',
       description: 'A project that was created for my Advanced Object Oriented Programming class. This is a website that lets users search for songs/artists based on mood, powered by an Azure Cloud database.',
       github: 'https://github.com/trapperwetzel/CIS_414_Playlist_Project',
-      role: 'Full Stack',
+      role: 'Full-Stack Developer',
       highlights: [
         'Developed mood-based search functionality',
-        'Integrated Azure Cloud database for song data'
+        'Azure Cloud database',
+        'M-V-C Design Pattern'
       ],
       
     },

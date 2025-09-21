@@ -60,7 +60,7 @@ export default function About() {
             <p>
               Hi, I’m Trapper — a Front-End Developer Intern (previously QA) with hands-on industry experience working with React.js, Git, and Azure DevOps.
               <br /><br />
-              A big part of my current role involves using React Query to restructure our service calls, which has taught me a lot about how data flows through an application. It’s helped me connect the dots between APIs, caching, and performance — and made me realize how much I enjoy working with APIs and turning data into something usable.
+              A big part of my current role involves using TanStack Query (formerly React Query)  to restructure our service calls, which has taught me a lot about how data flows through an application. It’s helped me connect the dots between APIs, caching, and performance — and made me realize how much I enjoy working with APIs and turning data into something usable.
               <br /><br />
               On the side, I’ve been having fun diving deeper into JavaScript on the backend with Node.js, as well as exploring the Linux ecosystem for personal and educational use.
               I love not just learning, but striving to be great in something. I really enjoy building projects that allow me to grow as a programmer while also solving issues for others and myself — the perfect combo!
@@ -75,7 +75,7 @@ export default function About() {
           <h2 className="text-green-400 text-xl">❯ skills</h2>
           <ul className="list-disc ml-6 mt-2 space-y-1 text-sm text-green-300">
             <li><strong>Languages:</strong> JavaScript, C#, Python, SQL</li>
-            <li><strong>Technologies:</strong> React.js, React Query</li>
+            <li><strong>Technologies:</strong> React.js, Tanstack Query</li>
             <li><strong>Tools:</strong> Git, Azure DevOps, Linux</li>
             <li><strong>Currently Learning:</strong> Node.JS, TypeScript, PostgreSQL</li>
           </ul>

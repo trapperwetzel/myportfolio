@@ -1,8 +1,8 @@
-﻿import { useState } from 'react';
+﻿
 import githublogo from "../assets/github.jpg";
 
 export default function ProjectCard({ title, images, programs, description, github, role, highlights, details }) {
-  const [isExpanded, setIsExpanded] = useState(false);
+  
 
   return (
     <div className="custom-slideInUp rounded-xl border border-green-500 bg-green-950 p-6 shadow-lg transition-all hover:shadow-green-500/30">
@@ -25,7 +25,7 @@ export default function ProjectCard({ title, images, programs, description, gith
 
       {/* Metadata */}
       <p className="mb-2 text-gray-300">
-        <span className="font-semibold text-green-300">Programs:</span> {programs}
+        <span className="font-semibold text-green-300">Technologies:</span> {programs}
       </p>
       <p className="mb-2 text-gray-300">
         <span className="font-bold">Role:</span> {role}
@@ -44,20 +44,7 @@ export default function ProjectCard({ title, images, programs, description, gith
         </div>
       )}
 
-      {/* Expandable Details */}
-      {details && (
-        <div>
-          <button
-            onClick={() => setIsExpanded(!isExpanded)}
-            className="text-green-300 hover:underline mb-2 focus:outline-none"
-          >
-            {isExpanded ? 'Show Less' : 'Learn More'}
-          </button>
-          {isExpanded && (
-            <p className="text-gray-300 transition-all duration-300">{details}</p>
-          )}
-        </div>
-      )}
+      
 
       {/* GitHub Link */}
       {github && (
