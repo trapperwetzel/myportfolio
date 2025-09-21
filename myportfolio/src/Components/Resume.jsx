@@ -1,5 +1,5 @@
 ﻿import resume from '../assets/resume.pdf';
-import TypeWriterResume from './TypeWriter/TypeWriterResume';
+import TypeWriterBase from "./TypeWriter/TypeWriterBase";
 
 export default function Resume() {
   return (
@@ -9,7 +9,9 @@ export default function Resume() {
     >
       {/* Header */}
       <div className="custom-slideInUp mb-8">
-        <TypeWriterResume />
+        <TypeWriterBase 
+              title = {"Resume"}>
+        </TypeWriterBase> 
       </div>
 
       {/* Full-page PDF Embed */}

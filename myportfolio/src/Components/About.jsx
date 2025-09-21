@@ -1,7 +1,7 @@
 ﻿import { motion } from "framer-motion";
 import portrait from "../assets/portrait.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import TypeWriterHeader from "./TypeWriter/TypeWriterHeader";
+import TypeWriterBase from "./TypeWriter/TypeWriterBase";
 
 export default function About() {
   return (
@@ -25,7 +25,9 @@ export default function About() {
 
           {/* Name */}
           <h1>
-            <TypeWriterHeader />
+            <TypeWriterBase 
+              title = {"Trapper Wetzel"}>
+            </TypeWriterBase> 
           </h1>
 
           {/* Social Links */}
@@ -74,7 +76,7 @@ export default function About() {
           transition={{ delay: 0.6, duration: 0.8 }}
         >
           <h2 className="text-green-400 text-xl">❯ skills</h2>
-          <ul className="list-disc ml-6 mt-2 space-y-1 text-sm text-green-300">
+          <ul className="list-disc ml-6 mt-2 space-y-1 text-md text-green-300">
             <li><strong>Languages:</strong> JavaScript, C#, Python, SQL</li>
             <li><strong>Technologies:</strong> React.js, Tanstack Query</li>
             <li><strong>Tools:</strong> Git, Azure DevOps, Linux</li>

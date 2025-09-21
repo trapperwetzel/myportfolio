@@ -1,5 +1,5 @@
 ﻿import ProjectCard from "./ProjectCard";
-import TypeWriterProjectHeader from "./TypeWriter/TypeWriterProjectsHeader";
+import TypeWriterBase from "./TypeWriter/TypeWriterBase";
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 
@@ -53,7 +53,9 @@ export default function Projects() {
     >
       {/* Header */}
       <div className="custom-slideInUp mb-12">
-        <TypeWriterProjectHeader />
+        <TypeWriterBase 
+              title = {"Projects"}>
+          </TypeWriterBase> 
       </div>
 
       {/* Project Cards */}
