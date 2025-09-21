@@ -8,8 +8,6 @@ const TypeWriterProjectsHeader = () => {
 				sequence={[
 					"Projects",
 					10000,
-					
-
 				]}
 				wrapper="span"
 				speed={75}

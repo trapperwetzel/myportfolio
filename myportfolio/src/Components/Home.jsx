@@ -15,13 +15,12 @@ export default function Home() {
 
       {/* Pill Navbar */}
       <PillNav
-        
         items={[
           { label: "About", href: "#about" },
           { label: "Projects", href: "#projects" },
           { label: "Resume", href: "#resume" },
         ]}
-        activeHref="#about"
+        
         className="px-6"
         ease="power2.easeOut"
         baseColor="#065f46"

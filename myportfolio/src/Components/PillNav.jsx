@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef} from "react";
 import { gsap } from "gsap";
 
 export default function PillNav() {
@@ -6,8 +6,6 @@ export default function PillNav() {
   const tlRefs = useRef([]);
   const activeTweenRefs = useRef([]);
 
-  // this is going to track the active location/section the user is on. (example: The dot will appear under the projects header in the nav bar if the user is currently looking at my projects)
-  const [activeSection, setActiveSection] = useState("#about");
 
   const items = [
     { label: "About", href: "#about" },
@@ -15,23 +13,7 @@ export default function PillNav() {
     { label: "Resume", href: "#resume" },
   ];
 
-  // Scroll spy (the small bubble under the active section)
-  useEffect(() => {
-    const sections = document.querySelectorAll("section[id]");
-    const observer = new IntersectionObserver(
-      entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            setActiveSection(`#${entry.target.id}`);
-          }
-        });
-      },
-      { threshold: 0.6 } 
-    );
-
-    sections.forEach(section => observer.observe(section));
-    return () => sections.forEach(section => observer.unobserve(section));
-  }, []);
+  
 
   // Hover bubble animation
   useEffect(() => {
@@ -78,7 +60,7 @@ export default function PillNav() {
     <nav className="sticky top-0 z-50 flex justify-center gap-3 py-4 backdrop-blur-md">
       <ul className="flex gap-3 bg-green-950/70 rounded-full px-3 py-1">
         {items.map((item, i) => {
-          const isActive = activeSection === item.href; 
+          
           return (
             <li key={item.href} className="relative">
               <a
@@ -93,10 +75,7 @@ export default function PillNav() {
                   ref={el => (circleRefs.current[i] = el)}
                 />
                 <span className="relative z-10">{item.label}</span>
-                {/* Active dot */}
-                {isActive && (
-                  <span className="absolute left-1/2 -bottom-1 w-2 h-2 -translate-x-1/2 rounded-full bg-green-400" />
-                )}
+                
               </a>
             </li>
           );
