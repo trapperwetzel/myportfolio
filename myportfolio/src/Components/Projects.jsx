@@ -14,7 +14,7 @@ export default function Projects() {
       role: "Full-Stack Developer",
       highlights: [
         "Built nutrition and one rep max calculators",
-        "Azure Cloud database integration",
+        "Azure Cloud database",
         "Implemented M-V-C Design Pattern",
       ],
     },
