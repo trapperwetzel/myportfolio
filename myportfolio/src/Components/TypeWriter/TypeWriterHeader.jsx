@@ -2,15 +2,15 @@
 
 const TypeWriterHeader = () => {
 	return (
-		<h1 className= "font-mono text-5xl font-bold text-green-100 drop-shadow-lg md:text-6xl">
+		<h1 className= "font-mono text-4xl font-bold text-green-300">
 		<TypeAnimation
 		sequence = {[
-			"Welcome to Trapper's Website!", 
-			100000,
+			"Trapper Wetzel", 
+			
 		]}
 		wrapper= "span"
-		speed= {75}
-		repeat = {Infinity}
+		speed= {30}
+		repeat = {0}
 		/>
 	</h1>
 

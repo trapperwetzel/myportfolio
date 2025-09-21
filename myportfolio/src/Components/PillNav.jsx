@@ -13,8 +13,6 @@ export default function PillNav() {
     { label: "Resume", href: "#resume" },
   ];
 
-  
-
   // Hover bubble animation
   useEffect(() => {
     circleRefs.current.forEach((circle, i) => {

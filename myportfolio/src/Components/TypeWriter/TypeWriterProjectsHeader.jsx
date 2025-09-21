@@ -3,15 +3,14 @@
 
 const TypeWriterProjectsHeader = () => {
 	return (
-		<h1 className="drop-shadow-lg flex items-center text-center font-mono font-bold text-green-500 italic md:text-4xl">
+		<h1 className="drop-shadow-lg flex items-center text-center font-mono font-bold text-green-300 italic md:text-4xl">
 			<TypeAnimation
 				sequence={[
 					"Projects",
-					10000,
+					
 				]}
-				wrapper="span"
-				speed={75}
-				repeat={Infinity}
+				speed={30}
+                repeat={0}
 			/>
 		</h1>
 

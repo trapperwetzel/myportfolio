@@ -1,6 +1,7 @@
 ﻿import { motion } from "framer-motion";
 import portrait from "../assets/portrait.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import TypeWriterHeader from "./TypeWriter/TypeWriterHeader";
 
 export default function About() {
   return (
@@ -23,8 +24,8 @@ export default function About() {
           />
 
           {/* Name */}
-          <h1 className="font-mono text-4xl font-bold text-green-300">
-            Trapper Wetzel
+          <h1>
+            <TypeWriterHeader />
           </h1>
 
           {/* Social Links */}
@@ -80,8 +81,6 @@ export default function About() {
             <li><strong>Currently Learning:</strong> Node.JS, TypeScript, PostgreSQL</li>
           </ul>
       </motion.div>
-
-          
         </div>
       </div>
     </section>

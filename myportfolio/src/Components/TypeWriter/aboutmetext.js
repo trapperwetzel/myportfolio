@@ -1,4 +1,0 @@
-
-const aboutmetext = "Professionally I am a Front-End Developer Intern with valuable experience in React.js, Git, and Azure DevOps, but I know I have only scratched the surface of what I want to learn. I am someone who loves to contribute and be beneficial to whatever project I am on; and to be the best I can be in whatever avenue I choose to persue. Transitioning from a QA Intern to developer has only motivated me further to continue to improve my skills. Software Development is the most fulfilling thing I have done in my entire life. I am someone who loves learning, and programming scratches that itch immensely and I am so grateful to be in this field and to have the opportunity to do what I do everyday. To be a software developer/engineer is something I will hold with pride forever, and the respect and passion I have for it will never leave me.";
-export default aboutmetext;
-
