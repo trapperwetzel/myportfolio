@@ -6,19 +6,6 @@ import { FaGithub } from "react-icons/fa";
 export default function Projects() {
   const projects = [
     {
-      title: "Pro-Wrestling API Website",
-      tech: "Node.js, React.js + TanStack Query, JavaScript/HTML/CSS",
-      description:
-        "A React-based web app that fetches professional wrestling data from the Wiki API, parses it into JSON, and displays it with interactive tables, filtering, and search.",
-      github: "https://github.com/trapperwetzel/WrestlerAPI",
-      role: "Full-Stack Developer",
-      highlights: [
-        "Fetched and merged wrestling data from Wiki API",
-        "Interactive table with filtering by title reigns, days held, alphabetical order, and wrestler search by name or championship",
-        "Planned PostgreSQL integration and daily automated updates",
-      ],
-    },
-    {
       title: "LiftHub Website",
       tech: "C#, ASP.NET MVC, JavaScript/HTML/CSS, MSSQL, Azure",
       description:
@@ -29,6 +16,19 @@ export default function Projects() {
         "Built nutrition and one rep max calculators",
         "Azure Cloud database integration",
         "Implemented M-V-C Design Pattern",
+      ],
+    },
+    {
+      title: "Pro-Wrestling API Website",
+      tech: "Node.js, React.js + TanStack Query, JavaScript/HTML/CSS",
+      description:
+        "A React-based web app that fetches professional wrestling data from the Wiki API, parses it into JSON, and displays it with interactive tables, filtering, and search.",
+      github: "https://github.com/trapperwetzel/WrestlerAPI",
+      role: "Full-Stack Developer",
+      highlights: [
+        "Fetched and merged wrestling data from Wiki API",
+        "Interactive table with filtering by title reigns, days held, alphabetical order, and wrestler search by name or championship",
+        "Planned PostgreSQL integration and daily automated updates",
       ],
     },
     {
