@@ -48,7 +48,7 @@ export default function About() {
           </div>
         </motion.div>
 
-        {/* About Text */}
+        
         <div className="font-mono space-y-6 text-green-300">
           {/* whoami */}
           <motion.div

@@ -1,7 +1,7 @@
 ﻿
 import githublogo from "../assets/github.jpg";
 
-export default function ProjectCard({ title, images, programs, description, github, role, highlights, details }) {
+export default function ProjectCard({ title, images, tech, description, github, role, highlights, }) {
   
 
   return (
@@ -25,7 +25,7 @@ export default function ProjectCard({ title, images, programs, description, gith
 
       {/* Metadata */}
       <p className="mb-2 text-gray-300">
-        <span className="font-semibold text-green-300">Technologies:</span> {programs}
+        <span className="font-semibold text-green-300">Technologies:</span> {tech}
       </p>
       <p className="mb-2 text-gray-300">
         <span className="font-bold">Role:</span> {role}

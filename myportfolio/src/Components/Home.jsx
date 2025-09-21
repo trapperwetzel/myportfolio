@@ -3,7 +3,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Resume from "./Resume";
 import PillNav from "./PillNav"; 
-import tcoding from "../assets/tcoding.png";
+
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
 
       {/* Pill Navbar */}
       <PillNav
-        logo= {tcoding}
+        
         items={[
           { label: "About", href: "#about" },
           { label: "Projects", href: "#projects" },
