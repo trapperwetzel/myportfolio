@@ -13,7 +13,7 @@ export default function Projects() {
       github: "https://github.com/trapperwetzel/Lifthub",
       role: "Full-Stack Developer",
       highlights: [
-        "Built nutrition and one rep max calculators",
+        "Built nutrition and one rep max calculators for users",
         "Azure Cloud database",
         "Implemented M-V-C Design Pattern",
       ],
@@ -39,7 +39,7 @@ export default function Projects() {
       github: "https://github.com/trapperwetzel/CIS_414_Playlist_Project",
       role: "Full-Stack Developer",
       highlights: [
-        "Developed mood-based search functionality",
+        "Developed mood-based search functionality for users",
         "Azure Cloud database",
         "Implemented M-V-C Design Pattern",
       ],
